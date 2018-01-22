@@ -1,6 +1,9 @@
 # `polish-plurals`
+[![npm version](https://badge.fury.io/js/polish-plurals.svg)](https://badge.fury.io/js/polish-plurals)
 [![Build Status](https://travis-ci.org/mmiszy/polish-plurals.svg?branch=master)](https://travis-ci.org/mmiszy/polish-plurals)
 [![Coverage Status](https://coveralls.io/repos/github/mmiszy/polish-plurals/badge.svg?branch=master)](https://coveralls.io/github/mmiszy/polish-plurals?branch=master)
+[![Dependency Status](https://david-dm.org/mmiszy/polish-plurals.svg)](https://david-dm.org/mmiszy/polish-plurals)
+[![devDependencies Status](https://david-dm.org/mmiszy/polish-plurals/dev-status.svg)](https://david-dm.org/mmiszy/polish-plurals?type=dev)
 
 # Description
 Package meant mostly for Polish users who are looking for the simplest way to use nouns with numbers in Polish correctly.
