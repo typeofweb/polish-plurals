@@ -33,5 +33,6 @@
     "coveralls": "3.0.0",
     "mocha": "5.0.0",
     "nyc": "11.4.1"
-  }
+  },
+  "types": "index.d.ts"
 }
