@@ -1,6 +1,6 @@
 {
   "name": "polish-plurals",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Package for generating correct plurals in Polish.",
   "main": "index",
   "scripts": {
