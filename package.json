@@ -7,7 +7,8 @@
     "test": "npm run build && mocha --require babel-core/register",
     "test:coverage": "npm run build && nyc npm test",
     "test:coveralls": "npm run build && nyc --reporter=text-lcov npm test | coveralls",
-    "build": "babel *.mjs --out-dir ."
+    "build": "babel *.mjs --out-dir .",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
