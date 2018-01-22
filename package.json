@@ -1,0 +1,34 @@
+{
+  "name": "polish-plurals",
+  "version": "0.0.0",
+  "description": "Package for generating correct plurals in Polish.",
+  "main": "index",
+  "scripts": {
+    "test": "npm run build && mocha --require babel-core/register",
+    "test:coverage": "npm run build && nyc npm test",
+    "build": "babel *.mjs --out-dir ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmiszy/polish-plurals.git"
+  },
+  "keywords": [
+    "polish",
+    "plurals",
+    "grammar"
+  ],
+  "author": "Michał Miszczyszyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmiszy/polish-plurals/issues"
+  },
+  "homepage": "https://github.com/mmiszy/polish-plurals#readme",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-plugin-dynamic-import-node": "1.2.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.26.0",
+    "chai": "4.1.2",
+    "mocha": "5.0.0",
+    "nyc": "11.4.1"
+  }
+}
