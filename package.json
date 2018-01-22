@@ -6,6 +6,7 @@
   "scripts": {
     "test": "npm run build && mocha --require babel-core/register",
     "test:coverage": "npm run build && nyc npm test",
+    "test:coveralls": "npm run build && nyc --reporter=text-lcov npm test | coveralls",
     "build": "babel *.mjs --out-dir ."
   },
   "repository": {
@@ -28,6 +29,7 @@
     "babel-plugin-dynamic-import-node": "1.2.0",
     "babel-plugin-transform-es2015-modules-commonjs": "6.26.0",
     "chai": "4.1.2",
+    "coveralls": "3.0.0",
     "mocha": "5.0.0",
     "nyc": "11.4.1"
   }
