@@ -37,3 +37,15 @@ commentsLabel(1); // komentarz
 commentsLabel(0); // komentarzy
 commentsLabel(3); // komentarze
 ```
+
+### Partial application
+And if you dislike `bind` for some reason - you can do partial application like this:
+
+```javascript
+import { polishPlurals } from 'polish-plurals';
+
+const commentsLabel = polishPlurals(null, 'komentarz', 'komentarze', 'komentarzy');
+commentsLabel(1); // komentarz
+commentsLabel(0); // komentarzy
+commentsLabel(3); // komentarze
+```
