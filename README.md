@@ -21,9 +21,9 @@ In the simplest case you need to provide 3 forms of the noun and a number. Those
 ```javascript
 import { polishPlurals } from 'polish-plurals';
 
-polishPlural("komentarz", "komentarze", "komentarzy", 1); // komentarz
-polishPlural("komentarz", "komentarze", "komentarzy", 0); // komentarzy
-polishPlural("komentarz", "komentarze", "komentarzy", 3); // komentarze
+polishPlurals("komentarz", "komentarze", "komentarzy", 1); // komentarz
+polishPlurals("komentarz", "komentarze", "komentarzy", 0); // komentarzy
+polishPlurals("komentarz", "komentarze", "komentarzy", 3); // komentarze
 ```
 
 ### Binding
