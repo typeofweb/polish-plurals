@@ -56,4 +56,10 @@ describe('polish plurals', () => {
     expect(commentsLabel(-3)).to.eql('komentarze');
     expect(commentsLabel(-5)).to.eql('komentarzy');
   });
+
+  it('should allow partial aplication', () => {
+    const partialCommentsLabel = polishPlurals('komentarz', 'komentarze', 'komentarzy');
+
+    expect(partialCommentsLabel(1)).to.eql(polishPlurals('komentarz', 'komentarze', 'komentarzy', 1));
+  });
 });
